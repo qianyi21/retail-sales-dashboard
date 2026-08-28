@@ -1,0 +1,5 @@
+streamlit==1.61.1
+pandas>=3.0.5
+plotly>=6.9.0
+openpyxl
+streamlit-aggrid>=1.2.1.post2
