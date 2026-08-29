@@ -105,7 +105,7 @@ def load_application_data() -> pd.DataFrame:
             key="monthly_zip_uploader",
             help=(
                 "Upload one ZIP file per month. "
-                "Example: MD-072026.zip"
+                "Example: MR-072026.zip"
             ),
         )
 
