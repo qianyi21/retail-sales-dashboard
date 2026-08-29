@@ -1169,16 +1169,9 @@ def main() -> None:
     with st.expander("🔎 View filtered data"):
 
         st.dataframe(
-            filtered_data.style.format(
-                {
-                    "AMT": "RM {:,.2f}",
-                    "QTY": "{:,.0f}",
-                }
-            ),
-            use_container_width=True,
+            filtered_data,
             hide_index=True,
         )
-
 
 # ============================================================
 # RUN APP
